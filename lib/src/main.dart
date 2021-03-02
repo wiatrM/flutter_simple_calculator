@@ -378,7 +378,7 @@ class _SimpleCalculatorState extends State<SimpleCalculator> {
 
   List<List<GridButtonItem>> _getItems() {
     return [
-      [_acLabel, "→", _controller.numberFormat.symbols.PERCENT, "÷"],
+      //[_acLabel, "→", _controller.numberFormat.symbols.PERCENT, "÷"],
       [_nums[7], _nums[8], _nums[9], "×"],
       [_nums[4], _nums[5], _nums[6], "-"],
       [_nums[1], _nums[2], _nums[3], "+"],
